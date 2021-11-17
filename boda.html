@@ -1,82 +1,68 @@
 ---
 permalink: /boda/
 ---
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
 <head>
-	<title>José Enrique & Milagros Vannet</title>
+    <title>José Enrique & Milagros Vannet</title>
     <link rel="shortcut icon" type="image/svg+xml" href="/assets/icon/wedding-rings.svg"/>
+
+    <!-- https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <style>
     @font-face {
-        font-family: "Edwardian Script ITC";
         src: url(/assets/font/edwardian_script.ttf);
     }
     /*
         Paleta de colores:
         https://www.color-hex.com/color-palette/87665
     */
-    body {
-        background: #131313;
-        color: #fff;
-        font-family: sans-serif;
-        /*font-size: 0.8em;*/
+    body, html {
+        height: 100%;
     }
     a {
-        color: #fff;
-        font-weight: bold;
+        color: gray;
     }
     h1 {
-        font-family:  "Edwardian Script ITC";
-        font-size: 10em;
-        color: #d2ae3a;
         text-align: center;
 
         text-shadow: 3px 5px 4px rgba(0,0,0,1);
     }
     h1.the-date {
+        color: #E0ADB3;
+        font-size: 3em;
         text-shadow: 3px 5px 4px rgba(255,255,255,1);
-        color: #131313;
-        font-size: 8em;
         margin-bottom: 0;
-    }
-    h2 {
-        font-size: 8em;
-        color: #d2ae3a;
-        font-family:  "Edwardian Script ITC";
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     h3 {
-        color: #d2ae3a;
+        color: #E0ADB3;
         margin-top: 1em;
-        font-size: 5em;
-        font-family:  "Edwardian Script ITC";
     }
     hr {
         border: 0;
         clear:both;
         display:block;
         width: 96%;
-        background-color: #131313;
         height: 1px;
     }
-    .header {
-        background-color: #131313;
-        padding-top: 1em;
-        background: url(/assets/img/preboda.jpg) no-repeat left center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+    .header-boda {
+      /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: url(/assets/img/invitacion_final.png);
 
-        margin: 0 auto;
-        max-width: 800px; /* 2 */
-        padding-right: 10px; /* 3 */
-        padding-left:  10px; /* 3 */
+      /* Set a specific height */
+      height: 500px;
+
+      /* Position and center the image to scale nicely on all screens */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      position: relative;
     }
     .footer {
         max-width: 800px;
@@ -91,66 +77,65 @@ permalink: /boda/
     }
 </style>
 <body>
+    <div class="container-sm text-center">
+        <!-- HEADER -->
+        <img src="/assets/img/invitacion_final.png" width="100%" style="max-width: 874px;">
 
-    <div class="header">
-		<h1>José&nbsp;Enrique<br>y<br>Milagros&nbsp;Vannet</h1>
+        <!-- To edit: https://www.powr.io/plugins/countdown-timer/standalone?id=22575737& -->
+        <div style="max-width: 874px; margin: auto" class="powr-countdown-timer" id="f073c478_1578583527"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
 
-        <h1 class="the-date">03 de Diciembre</h1>
+        <h1 class="the-date">03 de Diciembre 2021<br>3:00pm</h1>
 
-		<div class="powr-countdown-timer" id="f073c478_1578583527"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
-    </div>
-	<div class="container">
+        <h3>Surimana Salón</h3>
+        Av. Challapampa s/n F-1, Cerro Colorado, Arequipa
+        <br>
+        <br>
+        <iframe
+            id="location-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.644592264988!2d-71.55716148471684!3d-16.392057442305937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a692c8ef1c1%3A0x5d2a705846a4eccc!2sSurimana%20Salon!5e0!3m2!1ses!2spe!4v1637172706965!5m2!1ses!2spe"
+            style="border:0; max-width: 600px;"
+            width="100%"
+            height="450"
+            loading="lazy"></iframe>
 
-        <h2>Prepárate!</h2>
 
-		<h3>1. Confirma tu asistencia:</h3>
-		<p>
-            Por whatsapp al novio o la novia.
-        </p>
-
-		<h3>2. Envía tu regalo:</h3>
+        <br>
+        <br>
 
         <p>
+            <!-- Edit design: https://www.canva.com/design/DAEv_51TjKY/sU3nJsvvdYjOOfpbu4KJIQ/edit# -->
+            <a href="https://drive.google.com/file/d/1pgPouxCJV3XJoZrX7BNmXuE0mkbsQghz/view?usp=sharing">Invitación pdf</a><br>
+            <a href="https://drive.google.com/file/d/19CIw9EY6OEhUtFaSWOICAPyLIVNTHJ1t/view?usp=sharing">Invitación animada</a><br>
+            <a href="javascript:alert('Disponible el día del evento')">Retransmisión en vivo</a><br>
+            <a href="javascript:alert('Disponible unos días después del evento')">Fotos y videos del evento</a><br>
+        </p>
+
+        <h3>Regalos:</h3>
+
+        <p>
+            <strong>Ubicación:</strong>
+            <br>
+            A.H Parque Artesanal A-12, Miraflores
+            <br>
+            <br>
             <strong>BCP: 215-018409740-65</strong>
+            <br>
             A nombre de José Carrillo
             <br>
+            <br>
             <strong>Interbank: 300-3091432601</strong>
+            <br>
             A nombre de Milagros Valdivia
-        </p>
-
-        <h3>3. Mantente atento:</h3>
-        <p>
-            En esta página subiremos fotos nuestras y del evento, y quizás agreguemos nuevas funciones súper cool!
         </p>
         <!-- Nuevas ideas: -->
         <!-- Para compartir de los invitados -->
         <!-- Fotos de nosotros -->
 
-        <h3>Recursos:</h3>
-        <p>
-            <!-- Edit design: https://www.canva.com/design/DAEv_51TjKY/sU3nJsvvdYjOOfpbu4KJIQ/edit# -->
-            <a href="https://drive.google.com/file/d/1pgPouxCJV3XJoZrX7BNmXuE0mkbsQghz/view?usp=sharing">Invitación pdf</a><br>
-            <a href="https://drive.google.com/file/d/19CIw9EY6OEhUtFaSWOICAPyLIVNTHJ1t/view?usp=sharing">Invitación animada</a><br>
-        </p>
-
-        <h3>Lugar:</h3>
-        Surimana Salón: Av. Challapampa s/n F-1, Cerro Colorado, Arequipa
-        <br>
-        <iframe
-            id="location-map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.644592264988!2d-71.55716148471684!3d-16.392057442305937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a692c8ef1c1%3A0x5d2a705846a4eccc!2sSurimana%20Salon!5e0!3m2!1ses!2spe!4v1637172706965!5m2!1ses!2spe"
-            style="border:0;"
-            width="600"
-            height="450"
-            loading="lazy"></iframe>
-
-
-        <div class="footer">
-            <img width="75%" src="/assets/img/flores-acuarela.png">
+        <div>
+            <img width="100%" style="margin-top: 30px; max-width: 350px;" src="/assets/img/anillo.jpg">
         </div>
-	</div>
-    <div id="attributions">
-        Favicon made by <a href="https://www.flaticon.com/authors/vitaly-gorbachev" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
